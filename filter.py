@@ -21,8 +21,8 @@ def check_cms(url):
             for b in strBitrix:
 
                 if b == 'bitrix':
-                    result = 'found use bitrix cms in ' + url
-                    print(result)
+                    result = url
+                    """ print(result) """
                     fun = open('result.txt', 'a')
                     fun.write(result)
                     fun.close()
